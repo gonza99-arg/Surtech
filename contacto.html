@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contacto • Surtech</title>
+<meta name="description" content="Contactate con Surtech por WhatsApp o Gmail." />
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+
+  </head>
+  <body>
+    <header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">
+      <img src="assets/img/logo.svg" alt="Logo Surtech" />
+      <span>Surtech</span>
+    </a>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="presupuesto.html">Presupuesto</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="btn-primary">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+    <main class="container">
+      <h1>Contacto</h1>
+      <p>Escribinos para cotizar tu web o resolver dudas.</p>
+      <div class="contact-grid">
+        <form class="contact-form" action="https://formspree.io/f/xknlzzzz" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo mensaje - Surtech">
+          <label>Nombre<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Mensaje<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn-primary" type="submit">Enviar</button>
+          <p class="form-note">* Cambiá la URL de <code>action</code> por tu endpoint de Formspree para recibir en gonzalosaldivia24@gmail.com.</p>
+        </form>
+        <aside class="contact-aside">
+          <a class="btn-outline wide" href="https://wa.me/5492966611204?text=Hola%20Surtech%2C%20tengo%20una%20consulta" target="_blank" rel="noopener">Contactar por WhatsApp</a>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> gonzalosaldivia24@gmail.com</li>
+            <li><strong>WhatsApp:</strong> +5492966611204</li>
+            <li><strong>Ubicación:</strong> Argentina</li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Surtech</h4>
+      <p>Desarrollo web profesional para pymes y emprendedores.</p>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="presupuesto.html">Presupuesto</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="mailto:gonzalosaldivia24@gmail.com">gonzalosaldivia24@gmail.com</a></li>
+        <li><a href="https://wa.me/5492966611204" target="_blank">WhatsApp</a></li>
+        <li>Argentina (Patagonia)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container subfooter">
+    <small>© <span id="year"></span> Surtech. Todos los derechos reservados.</small>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+  </body>
+</html>
